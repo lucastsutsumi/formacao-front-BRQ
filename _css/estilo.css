@@ -8,6 +8,7 @@
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
   --red: red;
+  --blue:	rgb(0,191,255);
 }
 
 * {
@@ -17,12 +18,15 @@
 }
 
 body {
+  min-height: 100vh;
+  padding: 0 30px;
+
   background-color: var(--background);
   background-image: url('/_images/logo-brq.png');
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 15%;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -32,6 +36,7 @@ body {
 .title {
   color: var(--text-title);
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 h1.title {
@@ -46,11 +51,39 @@ h3.title {
   font-size: 18px;
 }
 
-ul,
 ol,
-dt,
-dl {
-  text-indent: 10px;
+ul {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+dl div {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.border {
+  border: 1px solid var(--white);
+}
+
+.border.border__dashed {
+  border-style: dashed;
+}
+
+.border.border__dotted {
+  border-style: dotted;
+}
+
+.border.border__blue {
+  border-color: var(--blue);
+}
+
+.border.border__red {
+  border-color: var(--red);
+}
+
+.border.border__rounded {
+  border-radius: 10px;
 }
 
 a {
