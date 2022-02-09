@@ -18,6 +18,11 @@
 
 body {
   background-color: var(--background);
+  background-image: url('/_images/logo-brq.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 15%;
+  background-attachment: fixed; 
 
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
