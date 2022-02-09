@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+:root {
+  --text-title: #885eff;
+  --text-body: #b0b1b5;
+
+  --background: #1f2729;
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --red: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-body);
+}
+
+.title {
+  color: var(--text-title);
+}
+
+a {
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  text-align: center;
+  padding: 5px 20px;
+}
