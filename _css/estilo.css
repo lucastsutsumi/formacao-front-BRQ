@@ -8,7 +8,8 @@
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
   --red: red;
-  --blue: rgb(0, 191, 255);
+  --blue: #009cde;
+  --orange: #ed8b00;
 }
 
 * {
@@ -33,6 +34,10 @@ body {
   color: var(--text-body);
 }
 
+header {
+  margin-top: 20px;
+}
+
 article {
   margin: 15px 0;
 }
@@ -53,6 +58,42 @@ h2.title {
 
 h3.title {
   font-size: 18px;
+}
+
+nav#menu h1 {
+  display: none;
+}
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -10px;
+  right: 300px;
+}
+
+nav#menu li {
+  display: inline-block;
+  padding: 5px;
+}
+
+nav#menu a {
+  color: var(--blue);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  transition: font-size 0.2s;
+}
+
+nav#menu a:hover {
+  color: var(--orange);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 22px;
+}
+
+nav#menu a.menu__active {
+  color: var(--orange);
 }
 
 #tagsExample,
@@ -112,7 +153,7 @@ dl div {
 }
 
 a {
-  color: red;
+  color: var(--red);
   text-decoration: none;
   font-style: oblique;
 }
