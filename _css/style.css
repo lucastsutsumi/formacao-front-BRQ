@@ -16,7 +16,6 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 150px;
-  background-attachment: fixed;
 
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -154,4 +153,34 @@ button {
 
 button:hover {
   background-color: var(--orange);
+}
+
+footer {
+  margin: 30px -30px 0;
+  padding: 15px 30px;
+  background-color: #202123;
+  position: sticky;
+  top: 100vh;
+
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+#socialMedia a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  text-indent: -99999px;
+  margin-left: 10px;
+}
+
+#socialMedia a[href*='linkedin.com'] {
+  background-image: url(../_images/linkedin.svg);
+}
+#socialMedia a[href*='github.com'] {
+  background-image: url(../_images/github.svg);
 }
