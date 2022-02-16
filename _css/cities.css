@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+section#cities li + li {
+  margin-top: 15px
+  }
+
+section#cities img {
+  width: 50px;
+  height: 28.25px;
+
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+section#cities ol p {
+  display: inline-block;
+  font-size: 16px
+}
+
+.source {
+  margin-top: 5px;
+  margin-left: 250px;
+  font-size: 12px
+}
