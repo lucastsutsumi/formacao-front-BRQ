@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(./color.css);
 
 section#register {
   margin-top: 40px;
@@ -6,4 +7,12 @@ section#register {
 
 #formContainer {
   max-width: 500px;
+}
+
+section#users {
+  margin-top: 30px;
+}
+
+section#users th {
+  color: var(--orange);
 }
