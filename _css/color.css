@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+  --text-title: #885eff;
+  --text-body: #b0b1b5;
+
+  --background: #1f2729;
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --red: red;
+  --blue: #009cde;
+  --orange: #ed8b00;
+  --gray: #666360;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#tagsExample,
+#tagsHierarchy,
+#tagsDefinition {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#tagsExample {
+  margin-right: 20px;
+}
+
+#tagsHierarchy,
+#tagsDefinition {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#googleLogo {
+  margin-right: 15px;
+}

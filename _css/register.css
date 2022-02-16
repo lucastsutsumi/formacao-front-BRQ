@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+section#register {
+  margin-top: 40px;
+}
+
+#formContainer {
+  max-width: 500px;
+}
