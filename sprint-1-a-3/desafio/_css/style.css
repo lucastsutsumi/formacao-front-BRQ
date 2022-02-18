@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url(./colors.css);
+@import url(./reset.css);
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font: 700 18px 'Dosis', sans-serif;
+  color: var(--black);
+  text-align: center;
+}
+
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header {
+  background-color: var(--cyan-400);
+  height: 158px;
+  color: var(--white);
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__form {
+  width: 250px;
+  height: 38px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  display: flex;
+
+  margin-top: 26px;
+}
+
+.header__form input {
+  box-sizing: border-box;
+  height: 100%;
+  width: 200px;
+  flex-grow: 1;
+  border: none;
+  padding: 0 8px;
+  color: var(--black);
+  font: 400 16px 'Roboto', sans-serif;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: transparent;
+}
+
+.header__form button {
+  flex-grow: 1;
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+
+  border: none;
+  text-indent: -99999px;
+  background-image: url(../_images/loupe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header__nav {
+  margin-top: 26px;
+}
+
+.header__nav h1 {
+  display: none;
+}
+
+.header__nav .header__nav__item {
+  display: inline-block;
+  font: 700 18px 'Dosis', sans-serif;
+  line-height: 1.7;
+}
+
+.header__nav__item + .header__nav__item {
+  margin-left: 12px;
+}
+
+.header__nav__item--active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.footer {
+  height: 115px;
+  color: var(--white);
+  background-color: var(--cyan-400);
+
+  position: sticky;
+  top: 100vh;
+}
+
+.footer .container {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 115px;
+  color: var(--white);
+  background-color: var(--cyan-400);
+
+  position: sticky;
+  top: 100vh;
+}
+
+.footer__contact h2 {
+  font: 700 14px 'Inter', sans-serif;
+}
+
+.footer__contact li {
+  text-indent: 20px;
+  font: 400 14px 'Inter', sans-serif;
+  margin-top: 9px;
+}
+
+.footer__contact li + li {
+  margin-top: 4px;
+}

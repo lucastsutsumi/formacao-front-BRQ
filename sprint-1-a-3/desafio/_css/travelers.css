@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.main {
+  margin-bottom: 75px;
+  min-height: calc(100vh - 158px - 115px - 50px - 75px);
+}
+
+.main h1 {
+  margin-bottom: 50px;
+}
+
+.travelers__article {
+  display: inline-block;
+  vertical-align: top;
+  width: 186px;
+}
+
+.travelers__article + .travelers__article {
+  margin-left: 127px;
+}
+
+.travelers__article h3 {
+  font: 700 12px 'Dosis', sans-serif;
+  margin: 19px 0;
+}
+
+.travelers__article p {
+  font: 400 12px 'Inter', sans-serif;
+  text-align: center;
+}
+
+.background {
+  margin-top: 36px;
+  height: 266px;
+  width: 100%;
+  background-image: url(../_images/travelers/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background p {
+  font: 700 36px 'Roboto', sans-serif;
+  color: var(--white);
+}
+
+.comment {
+  margin-top: 41px;
+}
+
+.comment h1 {
+  margin-bottom: 42px;
+}
+
+.form__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__input,
+.form__textarea {
+  background-color: var(--gray-50);
+  border: 1px solid var(--cyan-400);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 11px 20px;
+  color: var(--gray-600);
+  font: 400 14px 'Inter', sans-serif;
+}
+
+.form__input {
+  height: 41px;
+}
+
+.form__label--file {
+  width: 208px;
+  height: 31px;
+  background-color: var(--gray-400);
+  color: var(--white);
+  padding: 0;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form__input--file {
+  display: none;
+}
+
+.form__textarea {
+  width: 100%;
+  height: 152px;
+  display: block;
+  margin-top: 13px;
+  resize: none;
+}
+
+.form__textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+.form__textarea::-webkit-scrollbar-track {
+  box-shadow: 0 0 6px var(--gray-400);
+  border-radius: 10px;
+}
+
+.form__textarea::-webkit-scrollbar-thumb {
+  background-color: var(--cyan-400);
+  outline: 1px solid var(--cyan-400);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.comment__form button {
+  display: block;
+  margin-left: auto;
+  margin-top: 25px;
+  width: 208px;
+  height: 52px;
+  background-color: var(--cyan-700);
+  border-radius: 10px;
+  font: 700 24px 'Dosis', sans-serif;
+  border: none;
+  color: var(--white);
+  transition: filter 0.2s;
+}
+
+.comment__form button:hover {
+  filter: brightness(0.8);
+}

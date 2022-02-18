@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+  --black: #000;
+  --white: #fff;
+
+  --gray-25: #f8fcfc;
+  --gray-50: #daf5f5;
+  --gray-100: #ddf2f2;
+  --gray-400: #70a3a3;
+  --gray-600: #696363;
+
+  --cyan-400: #22a0a0;
+  --cyan-700: #155050;
+}
